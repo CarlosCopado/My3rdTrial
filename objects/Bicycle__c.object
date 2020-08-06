@@ -158,7 +158,7 @@
         <fullName>Color__c</fullName>
         <externalId>false</externalId>
         <label>Color</label>
-        <required>true</required>
+        <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -171,14 +171,34 @@
                     <label>Black</label>
                 </value>
                 <value>
+                    <fullName>Blue</fullName>
+                    <default>false</default>
+                    <label>Blue</label>
+                </value>
+                <value>
                     <fullName>Golden</fullName>
                     <default>false</default>
                     <label>Golden</label>
                 </value>
                 <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
                     <fullName>Red</fullName>
                     <default>false</default>
                     <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Silver</fullName>
+                    <default>false</default>
+                    <label>Silver</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
