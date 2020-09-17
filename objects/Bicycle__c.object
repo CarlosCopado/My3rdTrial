@@ -207,9 +207,11 @@
         <fullName>Price__c</fullName>
         <externalId>false</externalId>
         <label>Price</label>
-        <precision>6</precision>
-        <required>false</required>
-        <scale>0</scale>
+
+        <precision>7</precision>
+        <required>true</required>
+        <scale>2</scale>
+
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
