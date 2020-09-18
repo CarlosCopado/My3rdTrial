@@ -12,6 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+
                 <field>Type__c</field>
             </layoutItems>
             <layoutItems>
@@ -20,6 +21,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+
                 <field>Price__c</field>
             </layoutItems>
         </layoutColumns>
