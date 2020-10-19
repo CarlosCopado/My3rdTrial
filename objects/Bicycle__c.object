@@ -207,11 +207,9 @@
         <fullName>Price__c</fullName>
         <externalId>false</externalId>
         <label>Price</label>
-
         <precision>7</precision>
         <required>true</required>
         <scale>2</scale>
-
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
