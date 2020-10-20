@@ -22,6 +22,10 @@
                 <behavior>Required</behavior>
                 <field>Price__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Number_of_Gears__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
