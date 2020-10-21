@@ -204,14 +204,23 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Number_of_Gears__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Gears</label>
+        <precision>3</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Price__c</fullName>
         <externalId>false</externalId>
         <label>Price</label>
-
         <precision>7</precision>
         <required>true</required>
         <scale>2</scale>
-
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
