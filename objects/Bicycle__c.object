@@ -155,6 +155,14 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Built_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Built Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Color__c</fullName>
         <externalId>false</externalId>
         <label>Color</label>
@@ -204,14 +212,23 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Number_of_Gears__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Gears</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Price__c</fullName>
         <externalId>false</externalId>
         <label>Price</label>
-
         <precision>7</precision>
         <required>true</required>
         <scale>2</scale>
-
         <trackTrending>false</trackTrending>
         <type>Currency</type>
     </fields>
@@ -250,6 +267,16 @@
         </valueSet>
     </fields>
     <label>Bicycle</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Color__c</columns>
+        <columns>Number_of_Gears__c</columns>
+        <columns>Price__c</columns>
+        <columns>Built_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Bicycle Name</label>
         <type>Text</type>
